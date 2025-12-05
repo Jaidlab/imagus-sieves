@@ -1,0 +1,1 @@
+return $[1]?`#${$[1]}.jpg\n${$[1]}.preview.jpg`:$[4]?`https://www.junipergallery\.com/sites/default/files/styles/jumbo/public/${$[4]}`:`#${$[2]}jumbo${$[3]}\n${$[2]}large${$[3]}`

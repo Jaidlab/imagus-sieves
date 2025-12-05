@@ -1,0 +1,1 @@
+return this.node.parentNode.parentNode.getAttribute('data-img-gal');

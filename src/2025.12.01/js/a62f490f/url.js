@@ -1,0 +1,1 @@
+$[1]==='video' ? $[0] : $[1]==='boardgame' ? `//api.geekdo.com/api/${$[2]||'images'}?ajax=1&gallery=all&nosession=1&objectid=${$[3]}&objecttype=thing&pageid=${$[4]||1}&showcount=60&size=original&sort=hot` : $[1]==='geeklist'? `https://api.geekdo.com/api/listitems?page=${$[4]||1}&listid=${$[3]}` : `//api.geekdo.com/api/images/${!Number($[1][0])?$[3]:$[1]}`

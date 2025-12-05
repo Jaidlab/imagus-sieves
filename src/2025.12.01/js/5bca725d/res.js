@@ -1,0 +1,2 @@
+$=JSON.parse($._.match(/'coubPageCoubJson' type='text\/json'>\n?([^\n]+)/)?.[1]||'{}').file_versions;
+return $ ? [[$.share?.default],[$.html5?.audio?.high?.url||$.html5?.audio?.med?.url],[$.html5?.video?.high?.url]] : ''

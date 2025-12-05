@@ -1,0 +1,1 @@
+return $[1] ? '//n'+Math.ceil(Math.random()*4)+'.'+$[2] : $[2]

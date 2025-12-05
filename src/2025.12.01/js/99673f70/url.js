@@ -1,0 +1,1 @@
+this.ddg_images?.some(i=>i.thumbnail.match(/id[\/=]([^&]+)/)[1]===$[1]||i.thumbnail_token===$[2]) ? '' : 'data:,'+$[0]

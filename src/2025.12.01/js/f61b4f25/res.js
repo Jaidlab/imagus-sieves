@@ -1,0 +1,1 @@
+return $._.match(/"og:image" content="([^"]+)/)?.[1].replace(/(?:still)?[Tt]humb/,'orig')||''

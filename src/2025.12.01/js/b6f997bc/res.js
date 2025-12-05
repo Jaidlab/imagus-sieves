@@ -1,0 +1,1 @@
+return [...$._.matchAll(/<(?:source|img)[^>]+="([^"]+fmkorea\.com\/(?:files\/|getfile\.php\?code=)[^"]+)/g)].map(i=>[i[1]])

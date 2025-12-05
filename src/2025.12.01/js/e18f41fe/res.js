@@ -1,0 +1,2 @@
+const t=$._.match(/"description" content="([^"]+)/)?.[1].replace(/&#(\d+);/g,(a,b)=>String.fromCharCode(b))||'';
+return [...$._.matchAll(/href="([^"]+)"[\n\s]*rel="lightbox"|data-(?:original|cachedvideosrc)="([^"]+\.(?:mp4|webm)[^"]*)/gs)].map((i,n)=>[i[1]||i[2],!n?t:''])

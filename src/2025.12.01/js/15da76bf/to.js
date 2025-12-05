@@ -1,0 +1,1 @@
+return document.querySelector(`img[data-hq^="https://${$[1]}"]`)?.getAttribute('data-hq')||$[0]

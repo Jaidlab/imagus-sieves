@@ -1,0 +1,1 @@
+return JSON.parse($._.match(/"__NEXT_DATA__" type="application\/json">({.+?})</)?.[1]||'{}').props?.pageProps?.metadata?.images?.map(i=>['//img.trampt.com/'+i.original.location])||''

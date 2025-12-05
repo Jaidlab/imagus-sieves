@@ -1,0 +1,1 @@
+return $[1]?$[1]+'shmoster'+$[2]:$[3]+'poster'+$[4]

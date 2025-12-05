@@ -1,0 +1,1 @@
+return [...$._.matchAll(/(?:<img alt="([^"]+)"[^>]+?)?class="product-view-img-original" src="([^"]+)/g)].map(i=>[i[2],i[1]])

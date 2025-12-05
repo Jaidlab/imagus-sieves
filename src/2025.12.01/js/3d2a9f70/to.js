@@ -1,0 +1,1 @@
+return 'https://www.imghost.pl/images/'+$[1]+'.#'+($[2]?$[2]:'jpg gif png jpeg')+'#'

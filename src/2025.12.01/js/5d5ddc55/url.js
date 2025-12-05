@@ -1,0 +1,1 @@
+(location.hostname==='www.'+$[1]?'data:,':'')+$[0]

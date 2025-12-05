@@ -1,0 +1,2 @@
+if(/iframe\s+width[^>]+src="/.test($._))return {loop:$._.match(/iframe\s+width[^>]+src="([^"]+)/)[1]}
+return JSON.parse($._.match(/<script type="application\/ld\+json">[^{]+([^\n]+)\n/)?.[1]||'{}')['@graph']?.[2].image.flatMap(i=>!/\/emoticons\//.test(i.url)?[[i.url]]:[])||''

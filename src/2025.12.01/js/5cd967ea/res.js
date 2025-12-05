@@ -1,0 +1,2 @@
+var x = $._.match(RegExp("src='/[\\da-zA-Z]+(_[^.]*)?\\.[^']+", 'g')), t = $._.match(/<h2[^>]*>([^<]+)/), l = 'http://' + $[1];
+return x ? x.map(function(i, n) {return ['#' + l + i.replace(/_[^.]+/, ''), !n && t && t[1]]}) : x

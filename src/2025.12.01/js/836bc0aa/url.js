@@ -1,0 +1,1 @@
+(()=>{if(location.hostname.endsWith('.sports.ru')&&!/(?:Фот|Виде)о/.test(this.node.closest('a')?.previousElementSibling?.innerText||''))throw '';return $[0]})()

@@ -1,0 +1,1 @@
+(location.hostname.endsWith($[1])?'data:,':'')+$[0]

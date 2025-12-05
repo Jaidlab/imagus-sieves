@@ -1,0 +1,1 @@
+$[1]==='brand' ? $[0] : `//player.smotrim.ru/iframe/datavideo/id/${$[2]||$[3]}/sid/smotrim`

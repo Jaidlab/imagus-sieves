@@ -1,0 +1,1 @@
+return JSON.parse($._.match(/window\.launcher\(({.+?}), /)?.[1]||'{}').params?.content.posts[0].blocks[0].content.filter(i=>i.hd||i.media?.url||i.url).map(i=>i.hd?[['#'+i.hd,i.md]]:[i.media?.url||i.url])||''

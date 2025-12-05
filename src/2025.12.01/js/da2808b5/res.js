@@ -1,0 +1,1 @@
+return [...$._.matchAll(/href="([^"]+)"\s+data-fancybox-group/g)].map(i=>[i[1]])

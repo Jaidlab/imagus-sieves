@@ -1,0 +1,1 @@
+$[0].indexOf('mediaurl=h')>0 ? '' : $[1] + 'view=detailV2&id=' + $[2]

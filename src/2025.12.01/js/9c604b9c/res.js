@@ -1,0 +1,2 @@
+$=JSON.parse($._.match(/Copernicus\(({.+?})\)/s)?.[1].replace(/\n\s+/g,'').replace(/([{,])(\w+):\s+/g,'$1"$2":')||'{}')?.store?.viewer?.item?.links?.content_url||'';
+return $+(/\.m[o4]v/.test($)?'#mp4':'')

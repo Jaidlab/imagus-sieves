@@ -1,0 +1,1 @@
+return $[1].split("!").map(i=>[i])

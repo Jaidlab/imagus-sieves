@@ -1,0 +1,1 @@
+$[2]?'https://hentaifox.tv/embed_new.php?name='+$[2]:$[0]

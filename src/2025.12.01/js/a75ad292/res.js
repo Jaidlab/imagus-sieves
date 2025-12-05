@@ -1,0 +1,1 @@
+return [...$._.matchAll(/data-type-over-img="((?!')[^"]+)/g)].map(i=>[i[1]])

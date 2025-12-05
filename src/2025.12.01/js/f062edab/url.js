@@ -1,0 +1,1 @@
+(()=>{if($[0].length>=location.href.length)throw '';return 'data:,'+$[0]})()

@@ -1,0 +1,1 @@
+$[2]?`//api.vp.rambler.ru/api/v3/records/getPlayerData?params=%7B%22uuid%22%3A%22${$[2]}%22%7D`:$[0]

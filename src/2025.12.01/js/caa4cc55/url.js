@@ -1,0 +1,1 @@
+'data:,' + this.TRG.IMGS_c_resolved.URL

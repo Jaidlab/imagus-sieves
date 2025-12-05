@@ -1,0 +1,1 @@
+return [...$._.matchAll(/data-fancybox="gallery" href="([^"]+)/g)].map(i=>[i[1]])

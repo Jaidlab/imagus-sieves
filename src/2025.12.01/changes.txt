@@ -1,0 +1,50 @@
+NEW
+=====
+Imagenes_CMS
+Pangea_CMS-p
+(Imagus_fan)
+Joyreactor-x
+(imqswt)
+
+
+REPLACED
+=========
+Danbooru.Donmai.us-x-p
+EyeСandy-g-x > EyeСandy-x-p
+e621+e926+e6ai-x-p
+HentaiFox-x-p
+IMHentai-x-p
+Konachan-x-p
+Porn3dx-x > Porn3dx-x-p
+xHamster_video-x-q-p
+(imqswt)
+[Extension]
+2GIS.ru
+(hababr)
+[Google_Images]
+Postimages+postimg-h-p
+(Imagus_fan)
+
+
+RESTORED
+=========
+
+
+DELETED
+========
+Phica.eu-x-p
+
+
+Updating the rules for SMH
+====================
+SimpleModifyHeader_2025.11.29_121
+
+
+!!!
+[Separately]
+In this catalog, all the rules (sieves) listed above - for those who make their own rule-set.
++
+FAQ
+https://forum.ru-board.com/topic.cgi?forum=5&topic=50874&start=0&limit=1&m=7#1
+TROUBLESHOOTING
+https://forum.ru-board.com/topic.cgi?forum=5&topic=50874&start=0&limit=1&m=9#1

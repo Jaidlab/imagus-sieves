@@ -1,0 +1,1 @@
+try{return JSON.parse($._.match(/__NEXT_DATA__" type="application\/json">(.+?)<\//)[1]).props.initialState.adView.data.images.gallery.map(i=>[i])}catch(e){return ''}

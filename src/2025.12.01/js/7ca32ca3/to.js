@@ -1,0 +1,2 @@
+$=document.documentElement.outerHTML.match(/"profile_id":"([^"]+)/)[1]
+return 'https://www.instagram.com/graphql/query/?query_id=9957820854288654&user_id='+$+'&include_highlight_reels=true&'+Date.now()

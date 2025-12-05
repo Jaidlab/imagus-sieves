@@ -1,0 +1,1 @@
+/firefox/i.test(navigator.userAgent)||location.hostname===$[1]?'data:,'+$[0]:$[0]

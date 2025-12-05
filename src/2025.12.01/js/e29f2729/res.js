@@ -1,0 +1,2 @@
+if(/^data:/.test($.base))return {loop:this.oImg}
+return /\/(?:a|alb|album)\//.test($[0])?[...$._.matchAll(/img\s+src="([^"]+)"\s+alt/g)].map(i=>[i[1]]):($._.match(/<meta property="og:image" content="([^"]+)"/)||[,''])[1]

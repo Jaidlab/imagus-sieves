@@ -1,0 +1,1 @@
+return [...$._.matchAll(/<a href="([^"]+)" class="p-images__slider-item"/g)].map(i=>['//'+$[1]+i[1]])

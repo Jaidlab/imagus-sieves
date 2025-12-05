@@ -1,0 +1,1 @@
+'https://api.'+($[2]||'redgifs')+'.com/v1/' + ($[4] ? 'users/'+$[4]+'/album_links/'+$[5] : 'gfycats/'+$[3])

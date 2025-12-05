@@ -1,0 +1,2 @@
+$=new DOMParser().parseFromString($._,"text/html")
+return $.querySelectorAll('source[srcset$="thumbnail 2x"]').length>1 ? [...$.querySelectorAll('source[srcset$="thumbnail 2x"]')].map(i=>{i=i.srcset.match(/^([^?]+)/)[1];return [['#'+i.replace(/resize\/\d+x\d+\//,''),i.replace(/(resize\/)\d+x\d+/,'$1780x780')]]}) : $.querySelector('source[srcset$=" 2x"]').srcset.match(/^([^?]+)/)[1].replace(/resize\/\d+x\d+\//,'')

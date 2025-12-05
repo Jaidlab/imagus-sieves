@@ -1,0 +1,1 @@
+return [...$._.matchAll(/<(?:video|img)[^>]+src="(\/dvs\/[^"]+)/g)].map(i=>[i[1]])

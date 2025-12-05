@@ -1,0 +1,1 @@
+return window.location.host.indexOf('.google.')>0?'':$[0]

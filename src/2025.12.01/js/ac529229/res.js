@@ -1,0 +1,1 @@
+return JSON.parse($._.match(/"__NEXT_DATA__" type="application\/json">({.+?})<\/script/)[1]).props.pageProps.product.images.filter(i=>i.src).map(i=>[i.src])

@@ -1,0 +1,1 @@
+(/boundhub\.com$/.test(location.hostname)?'data:,':'')+$[0]

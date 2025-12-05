@@ -1,0 +1,1 @@
+return location.hostname==='hubblesite.org' && this.node.parentNode?.parentNode?.parentNode?.firstElementChild?.firstElementChild?.href || $[0]

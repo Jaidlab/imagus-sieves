@@ -1,0 +1,1 @@
+return 'https://' + $._.match(/cdnp.kink.com\/.+?.mp4/m)[0]

@@ -1,0 +1,1 @@
+(()=>{if($[1]&&!$[2]&&!RegExp(`^https://www\\.${$[1]}stories/highlights/\\d+/$`).test(location.href))throw '';return $[2]?.[0]!=='g' ? 'data:,'+($[3]||location.pathname.match(/\d+/)[0]) : $[0]})()

@@ -1,0 +1,1 @@
+(/renderotica\.com$/.test(location.hostname)?'data:,':'')+$[0]

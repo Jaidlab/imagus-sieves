@@ -1,0 +1,1 @@
+return $._.match(/;" SRC="([^"]+)/)?.[1]||[...$._.matchAll(/<IMG SRC="([^"]+)" BORDER/g)].map(i=>[i[1].replace('_t','')])

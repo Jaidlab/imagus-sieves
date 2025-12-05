@@ -1,0 +1,2 @@
+const n = this.node
+return n.src||n.dataset?.src||n.style["background-image"]?.match(/url\("([^"]+)/)?.[1]||n.parentNode?.querySelector('div[style^="background-image"]')?.style?.backgroundImage?.match(/url\("([^"]+)/)?.[1]||''

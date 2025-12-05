@@ -1,0 +1,1 @@
+return [...this.node.closest('div[class="slick-track"]').children].map(i=>[["#"+i.firstElementChild.src.match(/^[^_]+/),i.firstElementChild.src.replace(/_\d+x\d+/,"_c1246x1246")]])

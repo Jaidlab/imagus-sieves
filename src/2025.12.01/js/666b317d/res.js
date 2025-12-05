@@ -1,0 +1,1 @@
+return $[1] ? [...$._.matchAll(/img\s+src="([^"]+)"\s+alt/g)].map(i => [i[1]]) : [ $._.match(/="og:image" content="([^"]+)/)[1], $._.match(/="og:title" content="([^"]*)/)[1] ]

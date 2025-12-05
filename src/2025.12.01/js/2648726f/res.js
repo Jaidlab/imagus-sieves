@@ -1,0 +1,1 @@
+return JSON.parse($._.match(/(\[{"thumb".+?\]),/)?.[1]||'[]').map(i=>[['#'+(i.videoUrl||i.full),i.img],i.caption])

@@ -1,0 +1,1 @@
+`https://www.${$[1]}by_id/t3_${$[2]}.json${this.node?.src ? '?'+Date.now() : ''}`

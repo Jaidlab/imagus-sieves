@@ -1,0 +1,1 @@
+$[1]&&/dns-shop\.ru/.test(location.hostname)?'data:,'+$[1]:$[0]

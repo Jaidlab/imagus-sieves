@@ -1,0 +1,1 @@
+$[3]&&app.name==='Imagus mod'&&platform.firefox ? `https://${$[2]}json :action=list&album=${$[4]}&page=${$[5]||1}`: $[1] || $[6]

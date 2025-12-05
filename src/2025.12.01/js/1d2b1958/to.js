@@ -1,0 +1,1 @@
+return $[1].replace('california-times-brightspot.s3.amazonaws.com', 'california-times-brightspot-lower.s3.amazonaws.com')

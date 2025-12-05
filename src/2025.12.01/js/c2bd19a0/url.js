@@ -1,0 +1,1 @@
+(()=>{this.node.closest('div[class^="mantine-"]')?.querySelector('div[class^="___ref-maskCard"]')?.remove();return `https://www.${$[1]}api/www/${$[2][0]==='m'?$[2]:'img/group'}/get${$[2][0]==='m'?'ByUuid':''}${$[3]}?timestamp=${Date.now()} :{}`})()

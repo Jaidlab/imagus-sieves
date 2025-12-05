@@ -1,0 +1,1 @@
+return JSON.parse($._.match(/window\.INITIAL_STATE\["pdp"\]=({.+?});;/)?.[1]||'{}')?.pdp?.pdp.product.media.images.map(i=>[i.url])||''

@@ -1,0 +1,2 @@
+if($[1])return $._[0]==='{' ? JSON.parse($._).files?.[0]?.fileUri : $._.match(/"VideoObject","contentUrl":"([^"]+)/)?.[1]||'';
+return this.node.querySelector('img')?.src?.replace(/(\?c=).+/,'$1original')||''

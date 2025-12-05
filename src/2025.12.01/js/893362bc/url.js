@@ -1,0 +1,1 @@
+'awesomescreenshot.com/api/v1/'+$[1]+'/load'+($[1]=='video' ? '_video' : '')+'?id='+$[2]+'&'+$[3];

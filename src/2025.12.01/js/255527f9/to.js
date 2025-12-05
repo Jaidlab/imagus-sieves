@@ -1,0 +1,1 @@
+return $[1] ? `#${$[1]}#hd2 hd4 sd2 sd4#\n${$[1]}` : this.node.closest('tr')?.querySelector('img')?.src

@@ -1,0 +1,1 @@
+return $[1].replace(/-thumb(-daz3d)/, '-main$1')

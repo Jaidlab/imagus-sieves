@@ -1,0 +1,1 @@
+!this.rg_auth&&(location.hostname!=='www.redgifs.com'||!localStorage.getItem('session_data')||this.rg_auth_fail) ? 'https://api.redgifs.com/v2/auth/temporary' : 'data:,'+$[1]

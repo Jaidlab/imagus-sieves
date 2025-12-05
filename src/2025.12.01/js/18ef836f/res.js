@@ -1,0 +1,2 @@
+$=JSON.parse($._.match(/window\.__remixContext = ({.+?});/)?.[1]||'{}').state?.loaderData["routes/($lang).studio.$id_.$clipId.$clipSlug"].clip
+return $.customPreviewUrl||$.cdn_preview_link||$.previewUrl?[$.customPreviewUrl||$.cdn_preview_link||$.previewUrl,$?.description||'']:[...$.description.matchAll(/"(http[^"]+\.gif[^"]*)/g)].map(i=>[i[1]])

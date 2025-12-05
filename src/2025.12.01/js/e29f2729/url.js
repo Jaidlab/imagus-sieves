@@ -1,0 +1,1 @@
+(()=>{this.oImg = this.node.src??this.node.closest('a').querySelector('img[title]')?.src??'';if(!this.sReg)this.sReg=new RegExp(cfg.sieve.filter(i=>i.off!==1).map(i=>i.img?.source).filter(Boolean).join(")|(?:").replace(/.*/,'(?:$&)'));return this.sReg.test(this.oImg.replace(/^https?:\/\/(?:www\.)?/,'')) ? 'data:'+$[0] : $[0]})()

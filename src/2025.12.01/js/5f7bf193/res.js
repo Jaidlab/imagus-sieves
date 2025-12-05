@@ -1,0 +1,1 @@
+return JSON.parse($._).result.pictures?.map(i=>[i.url])||''

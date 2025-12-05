@@ -1,0 +1,1 @@
+return (JSON.parse($._.match(/"__NEXT_DATA__" type="application\/json">({.+?})<\/script/)?.[1]||'{}').props?.initialState?.productPage?.productHeader?.payload?.productBase?.images||[]).map(i=>[i.sources.pop().url])

@@ -1,0 +1,1 @@
+return $[2]||$[4] ? $[1]+($[2]||$[4])+'_large' : $[3] ? $[1]+$[3]+'front' : [...document.querySelectorAll('script[type="text/javascript"]')].find(i=>RegExp(`<img id="${this.node.id?.match(/[^_]+/)?.[0]}"`).test(i.textContent))?.textContent?.match(/src="([^"]+)/)?.[1]||''

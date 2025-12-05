@@ -1,0 +1,1 @@
+return [...$._.matchAll(/(?:muted="" playsinline="|img loading="lazy" [^>]+|href="#"><img width="\w+)" src="(https?:\/\/i?\w+\.ruliweb\.com\/(?:img|osi)[^"]+)" (?:alt|style)=/g)].map(i=>[[i[1].replace('/img/','/ori/'),i[1]]])

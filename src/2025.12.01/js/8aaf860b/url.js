@@ -1,0 +1,1 @@
+$[2] ? 'https://weibo.com/ajax/statuses/show?id='+$[2]+($[1]?'&'+Date.now():'') : ''

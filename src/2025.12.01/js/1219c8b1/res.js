@@ -1,0 +1,1 @@
+return [...$._.matchAll(/data-pswp-height="[^"]+"\s+href="([^"]+)/g)].map(i=>[i[1]])

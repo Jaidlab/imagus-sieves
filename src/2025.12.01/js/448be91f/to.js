@@ -1,0 +1,1 @@
+return $[1]+($[2] || ($[3].indexOf('/userimages')>0 ? $[3].replace(/_?thumbs?\/?/g,'') : $[3] + '#l #'))+'.'+$[4]

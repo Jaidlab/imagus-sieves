@@ -1,0 +1,1 @@
+return [...$._.matchAll(/<img (?:class="?bigimg"?\s+)?src="([^"]+)"\s+loading="lazy"\s+(?:alt="[^"]*"\s+)?width/g)].map(i=>[['#'+i[1].replace(/\.[a-z]{3,4}$/,'_b$&'),i[1]]])

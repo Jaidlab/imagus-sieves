@@ -1,0 +1,2 @@
+var i=$._.match(/<br>\s*<a href="(image\/[^"]+)"[^<]+<img src="([^"]+)/i);
+return i && [[["#" + $.base + i[1], $.base + i[2]], $._.match(/Explanation:?\s*<\/[^>]+>:?\s*([\s\S]+?)<p>/)[1].trim().replace(/<[^>]+>/g, '')]] || null;

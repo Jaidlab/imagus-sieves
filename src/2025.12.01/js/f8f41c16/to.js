@@ -1,0 +1,1 @@
+return JSON.parse(document.querySelector('input[class="js-tv3-init"]').value)['TV3.clipstream_clips'].find(i=>i.match(/t=\d+\/\d+/)[0]==='t='+$[1]+$[2]).replace(/(t=\d+\/)(\d+)/,function(a,b,c){return b+((parseInt(c)+300).toString())})

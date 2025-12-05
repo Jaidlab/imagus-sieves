@@ -1,0 +1,1 @@
+return $[2] ? '//www.'+$[1]+'api/img'+$[2]+'/0/original' : $[1]+'.#png jpeg webp#'

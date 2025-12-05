@@ -1,0 +1,1 @@
+(()=>{if(($[3]||$[4])&&!this.node.src)throw '';return $[3]?$[0].replace($[3],'foto/'):$[4]?$[0].replace($[4],'poster/'):$[0]})()

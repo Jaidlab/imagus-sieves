@@ -1,0 +1,1 @@
+/softpedia\.com$/.test(location.hostname) ? 'data:,'+$[0] : $[0]

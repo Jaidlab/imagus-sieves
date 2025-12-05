@@ -1,0 +1,1 @@
+return [...new Map([...$._.matchAll(/img[^>]+(?:content|data-image|src)="(https:\/\/[^/]+\/[^."]+\.[^?"]+)/g)].map(i=>[i[1]]))]

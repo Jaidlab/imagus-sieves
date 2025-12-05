@@ -1,0 +1,1 @@
+return location.hostname.indexOf('imgur.') > -1 && this.node.closest('a[class^="Post-item "]')?.href || $[0]

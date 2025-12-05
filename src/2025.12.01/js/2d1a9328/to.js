@@ -1,0 +1,1 @@
+return RegExp($[2]).test(location.pathname)&&/=[234]\d{3}x/.test($[3]) ? $[1]+'jpg'+($[3]||'') : 'https://www.gettyimages.com/detail'+$[2]

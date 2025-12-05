@@ -1,0 +1,1 @@
+$[1][2]==='e'?'https://www.pornhub.com/embed/'+$[2]:$[0]

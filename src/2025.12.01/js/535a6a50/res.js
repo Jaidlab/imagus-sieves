@@ -1,0 +1,1 @@
+return $._.match(/video_url: '([^']+)/)[1]+'#mp4'

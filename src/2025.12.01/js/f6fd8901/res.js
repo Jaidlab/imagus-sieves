@@ -1,0 +1,1 @@
+return $._.match(/<source src="([^"]+)/)?.[1].replace(/[a-z]+\.videos\.cdn\.homemoviestube\.com/,'www.homemoviestube.com/media/videos')||''

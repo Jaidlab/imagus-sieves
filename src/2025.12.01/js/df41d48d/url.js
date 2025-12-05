@@ -1,0 +1,1 @@
+/shorpy\.com\/node/.test($[0])?$[1]+'?size=_original':$[1]

@@ -1,0 +1,1 @@
+return /(?=.*object-contain)(?=.*object-center)/.test(this.node.getAttribute('class'))?'finn/album?gallery'+$[2]:$[1]+'1600w'+$[2]+'#'

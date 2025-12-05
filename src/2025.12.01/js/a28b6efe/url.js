@@ -1,0 +1,1 @@
+'https://reddxxx.com/api/db/post?postId='+this.node.closest('div[role="gridcell"]').querySelector('a[href*="/comments/"]').pathname.match(/\/comments\/(\w+)/)[1]

@@ -1,0 +1,1 @@
+return $[4] ? decodeURIComponent($[4]).replace(/\/i(-\d+\.[^?]+).*/, '/h$1') : 'content.f' + $[1] + $[2].replace(/=/g, '/') + 'h' + $[3];

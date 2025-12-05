@@ -1,0 +1,1 @@
+return JSON.parse($._.match(/window.__INITIAL_STATE__\s*=\s*(.+?);\n/)[1]).threadDetail.galleryImages.map(i=>['//static.pepper.ru/'+i.path+'/'+i.name+'.jpg'])

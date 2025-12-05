@@ -1,0 +1,1 @@
+$[1]?'https://www.tnaflix.com/ajax/video-player/'+$[1]:$[0]

@@ -1,0 +1,1 @@
+return $[1] ? "https://www.casimages.com/f_get.php?f="+$[1]+"#mp4" : ($._.match(/<a href="([^"]+)"><img border/)||[])[1]??''

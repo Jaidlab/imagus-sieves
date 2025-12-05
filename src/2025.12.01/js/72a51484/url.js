@@ -1,0 +1,1 @@
+$[4] ? 'https://api.flickr.com/services/rest?extras=url_h%2Curl_k%2Curl_o%2Curl_3k%2Curl_4k%2Curl_5k%2Curl_6k%2Cpage=0&photoset_id='+$[4]+'&format=json&method=flickr.photosets.getPhotos&api_key='+$[5]+'&per_page='+$[6]+($[7] ? '&viewerNSID='+$[7]+'&csrf='+$[8] : '')+'&nojsoncallback=1&'+this.flickr_album||'' : `https://www.flickr.com/photos/${$[1]}albums/${$[3]}/`

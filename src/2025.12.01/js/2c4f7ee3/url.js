@@ -1,0 +1,1 @@
+this.lb_stats ? `https://${$[1]+$[2]}/` : `https://${$[1]}csi/${$[2]}/stats/`

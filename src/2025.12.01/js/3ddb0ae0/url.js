@@ -1,0 +1,1 @@
+$[2]&&!$[4]?'https://fotoload.ru/?action=ajaxfunc&sa=get_fotoset_fotos&fotoset_id='+$[3]+'&offset=0&fid=0':$[1]

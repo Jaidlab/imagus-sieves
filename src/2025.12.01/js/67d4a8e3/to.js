@@ -1,0 +1,1 @@
+return decodeURIComponent(window.atob($[1].replace(/_/g, '/')).replace(/^[^h]*(https?:\/\/[^\/]+\/([\w\-.~:/?#\[\]@!$&'()*+,;=]|%\d\d)+).*/, '$1'))

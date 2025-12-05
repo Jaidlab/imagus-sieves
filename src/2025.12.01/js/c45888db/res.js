@@ -1,0 +1,2 @@
+const result = JSON.parse($._.match(/__NEXT_DATA__[^{]+([^<]+)/)[1]).props.pageProps.mainItem.images.filter((i) => i.type === 'Screenshot').map((i) => [i.signedImages[0].signedURL])
+return result.length > 0 ? result : false

@@ -1,0 +1,1 @@
+return $[0].replace(/&crop=[^&]*/,'').replace(/(&size=)[^&]+/,'$110000x10000')

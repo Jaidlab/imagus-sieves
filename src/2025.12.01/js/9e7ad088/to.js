@@ -1,0 +1,1 @@
+return '//www.dpreview.com/sample-galleries/'+$[1]+'/one!'

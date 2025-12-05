@@ -1,0 +1,1 @@
+$[3] ? 'https://www.tiktok.com/embed/v2'+$[3] : $[0]

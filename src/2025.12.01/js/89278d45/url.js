@@ -1,0 +1,1 @@
+$[2] ? $[0] : `https://tophotels.ru/hotel/${$[1]}/media/fsg-items?tab=photos`

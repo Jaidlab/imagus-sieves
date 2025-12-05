@@ -1,0 +1,1 @@
+return $._.match(/<a id="\w+" href="([^"]+)" target="_blank">/)[1]+'#mp4';

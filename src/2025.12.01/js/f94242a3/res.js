@@ -1,0 +1,1 @@
+return $[2][1]==='g'?[...$._.matchAll(/img\s+src="(htt[^t]+)t(.+?)thumb([^"]+)/g)].map(i=>[i[1]+'img'+i[2]+'image'+i[3]]):$._.match(/="image-img" src="([^"]+)/)?.[1]||''

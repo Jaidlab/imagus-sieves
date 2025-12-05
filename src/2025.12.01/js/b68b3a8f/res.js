@@ -1,0 +1,1 @@
+return [...$._.matchAll(/class="galimageview"><img src="([^"]+)/g)].map(i=>[i[1]])

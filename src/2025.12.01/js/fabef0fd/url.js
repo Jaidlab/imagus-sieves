@@ -1,0 +1,1 @@
+(()=>{this.use_reddit_MP4 = false /*Set to true to use MP4 video without audio*/;return this.use_reddit_MP4 ? `//v.redd.it${$[1]}/DASHPlaylist.mpd` : 'data:,'+$[0]})()

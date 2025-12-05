@@ -1,0 +1,2 @@
+const media = $._.match(/="og:(?:vide|audi)o" content="([^"]+)/)?.[1]
+return media?.length ? [media+'#mp4', $._.match(/="og:description" content="([^"]+)/)[1]] : {loop:`//www.tiktok.com/embed/v2/${$[1]}`}

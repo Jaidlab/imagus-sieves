@@ -1,0 +1,5 @@
+let x=new XMLHttpRequest()
+x.open('POST','https://cyberfile.me/account/ajax/file_details',false)
+x.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=UTF-8")
+x.send('u='+$._.match(/showFileInformation\((\d+)/)[1])
+return (x.responseText.match(/source src=\\"([^"]+)/)||[,''])[1].replaceAll('\\','')

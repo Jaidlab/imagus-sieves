@@ -1,0 +1,10 @@
+const url = $[1] ? 'api/channel/hls' : 'vod', x = new XMLHttpRequest(), hex = ['A','B','C','D','E','F','0','1','2','3','4','5','6','7','8','9'];
+x.open('POST','https://gql.twitch.tv/gql',false);
+x.setRequestHeader('Client-ID','kimne78kx3ncx6brgo4mv6wki5h1ko');
+x.send(`{"operationName":"PlaybackAccessToken_Template","query":"query PlaybackAccessToken_Template($login: String!, $isLive: Boolean!, $vodID: ID!, $isVod: Boolean!, $playerType: String!, $platform: String!) {  streamPlaybackAccessToken(channelName: $login, params: {platform: $platform, playerBackend: \\"mediaplayer\\", playerType: $playerType}) @include(if: $isLive) {    value    signature   authorization { isForbidden forbiddenReasonCode }   __typename  }  videoPlaybackAccessToken(id: $vodID, params: {platform: $platform, playerBackend: \\"mediaplayer\\", playerType: $playerType}) @include(if: $isVod) {    value    signature   __typename  }}","variables":{"isLive":${$[1]?'true':'false'},"login":"${$[1]||''}","isVod":true,"vodID":"${$[2]||''}","playerType":"site","platform":"web"}}`);
+const p = Math.floor(999999*Math.random()), tokens = JSON.parse(x.responseText).data[($[1]?'stream':'video')+'PlaybackAccessToken'];
+let id = '';
+for(i=0;i<32;i++)id+=hex[Math.floor(Math.random()*16)];
+const vid = `https://usher.ttvnw.net/${url}/${$[1]||$[2]}.m3u8?acmb=eyJBcHBWZXJzaW9uIjoiYjlhNjU4ZWMtMTcyMS00Y2FjLThkMjgtZjk0NmJmY2E3YzUwIn0%3D&allow_source=true&p=${p}&platform=web&play_session_id=${id}&sig=${tokens.signature}&supported_codecs=av1,h264&token=${encodeURIComponent(tokens.value)}&transcode_mode=cbr_v1`;
+this.TRG.IMGS_ext_data = ['//data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360"></svg>',`<imagus-extension type="videojs" url="${vid}"></imagus-extension>`];
+return {loop:'imagus://extension'}

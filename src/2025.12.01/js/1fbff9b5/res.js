@@ -1,0 +1,2 @@
+let m=[...$._.matchAll(/<source src="([^"]+)"\s+type="(?!video\/ogg)[^>]+data-width="([\d.]+)/g)].sort((a,b)=>Number(a[2])-Number(b[2]));
+return m.pop()?.[1]||$._.match(/"og:image" content="([^"]+)/)?.[1]||''

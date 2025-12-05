@@ -1,0 +1,1 @@
+$[3]==='item/' ? `//${$[1]+$[4]}.html` : 'https://aliexpress.'+$[2]+'/aer-jsonapi/v1/bx/pdp/web/productData?productId='+($[4]?.length?$[4]:this.node.closest('[class^="product-snippet_ProductSnippet__container"]').getAttribute('exp_product'))

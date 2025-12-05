@@ -1,0 +1,1 @@
+$[3] ? this.node.closest('a')?.getAttribute('onclick')?.match(/window\.location\s*=\s*'([^']+)/)?.[1]||this.find({src:this.node.src}) : $[0]

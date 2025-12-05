@@ -1,0 +1,2 @@
+if($[7])return $[1] + 'thumb/' + $[4] + '/' + $[7] + '2048px-' + $[5] + '.jpg';
+return '#' + $[1] + ($[3] ? $[3] + '/' : '') + $[4] + (!$[8] && !$[1].lastIndexOf('upload.wikimedia.org',0) && !/^gif/i.test($[6]) ? '\n'+ $[1] + 'thumb/' + $[4] + '/1024px-' + $[5] + (/^svg/i.test($[6]) ? '.png' : '') : ($[8] ? $[8] + 'latest' : ''))

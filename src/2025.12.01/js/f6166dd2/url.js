@@ -1,0 +1,1 @@
+(()=>{if (!this.node.closest('[data-test="product-snippet-property-offer"]')) throw ''; return $[0]})()

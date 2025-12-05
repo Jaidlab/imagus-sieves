@@ -1,0 +1,1 @@
+(()=>{if(/https:\/\/www\.rottentomatoes\.com\/(?:m|tv)\/[^\/]+(?:\/s\d+)?$/.test(location.href)){let thumbs=[...document.querySelectorAll('rt-img[data-qa="carousel-item-img"],rt-link[href$="/pictures"]')];thumbs.map(i=>i.outerHTML=i.outerHTML.replace(/\brt-(img|link)\b/g,(a,b)=>b==='img'?'img':'a'))};return $[0]})()

@@ -1,0 +1,2 @@
+const m=[...$._.matchAll(/"play-btn" data-src="([^"]+)/g)].map(i=>[['#'+i[1].replace('_480p','_1080p'),i[1]]])
+return [...$._.matchAll(/img\s+src="([^"]+)"\s+data-description=/g)].map(i=>[i[1].replace('/m_','/')]).concat(m)

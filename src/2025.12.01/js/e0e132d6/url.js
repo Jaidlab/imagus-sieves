@@ -1,0 +1,1 @@
+(()=>{const link=$[4]&&location.pathname.match(/profile\/([^\/]+)\/post\/(\w+)/);if(!$[2]&&!link)throw '';return `https://public.api.${$[1]||$[4]}app/xrpc/app.bsky.feed.getPostThread?uri=at%3A%2F%2F${$[2]||link[1]}%2Fapp.bsky.feed.post%2F${$[3]||link[2]}`})()

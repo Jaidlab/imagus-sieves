@@ -1,0 +1,1 @@
+$[1] ? (/serie/.test($[0]) ? $[0] : 'https://psapi.nrk.no/playback/manifest/'+(/program/.test($[0])?'program/':/direkte/.test($[0])?'channel/':'clip/')+$[1]) : 'data:,'

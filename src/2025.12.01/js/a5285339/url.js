@@ -1,0 +1,1 @@
+'https://hoff.ru/vue/catalog/product/?id='+ $[1] + ($[2] ? '&articul=' + $[2] : '');

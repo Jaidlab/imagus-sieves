@@ -1,0 +1,1 @@
+return '//'+$[1]+$._.match(/<a href="([^"]+)" download[>=]/)[1]

@@ -1,0 +1,1 @@
+return $[1] + $[3] + (/girl|boy/.test($[2]||'') ? '.sized' : '')

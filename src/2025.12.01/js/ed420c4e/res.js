@@ -1,0 +1,2 @@
+const t=$._.match(/description__content">(.+?)<\//)?.[1].replaceAll('<br>',' - ')||''
+return [...$._.matchAll(/meta itemProp="image" content="([^"]+)/g)].map((i,n)=>[['#'+i[1].replace(/^(.*upload\/).*\/([^\/]+\/[^.]+\..*)/,'$1$2'),i[1].replace('_large','_supersize')],!n?t:''])

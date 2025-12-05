@@ -1,0 +1,1 @@
+(location.hostname.slice(-12)===$[1]?'data:,':'')+$[0]

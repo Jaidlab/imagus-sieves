@@ -1,0 +1,1 @@
+location.hostname.startsWith('vk')&&window.top===window.self ? 'data:,'+$[0] : `https://${$[1]}video_ext.php?oid=${$[2]}&id=${$[3]}`

@@ -1,0 +1,1 @@
+location.hostname===$[1]&&$[2]==='img' ? 'data:,'+$[0] : $[2]!=='img' ? $[0] : `https://jpg6.su/oembed/?url=https%3A%2F%2Fjpg6.su%2Fimg%2F${$[3]}&format=json`

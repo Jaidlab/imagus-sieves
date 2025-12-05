@@ -1,0 +1,1 @@
+return $[2].slice(-13) === 'directory.jpg' ? $[0] : $[1] + 'displaypic=' + $[2];

@@ -1,0 +1,1 @@
+`${location.host.includes($[1])?'data:,':''}//danbooru.${$[1]}/posts/${$[2]}.json`

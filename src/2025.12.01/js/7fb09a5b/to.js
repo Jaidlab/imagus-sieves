@@ -1,0 +1,1 @@
+return $[2] ? `https://i.redd.it/snoovatar/avatars/${$[2]}.png` : $[1]

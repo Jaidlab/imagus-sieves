@@ -1,0 +1,1 @@
+return [...$._.matchAll(/srcset="(\S+) 1600w" alt=/g)].map(i=>[i[1].replace(/\/\d+x\d+\//,'0x0')])

@@ -1,0 +1,1 @@
+return `#${$[1]}${$[2]?.replace(/(?<=[?&])(?:w(?:idth)?|h(?:eight)?|(?:cro|stri)p|q(?:uality)?(?==[\d.]+(?:&|$))|auto|f(?:orma|i)t)=[\w%.,]+(?:&|$)/g,'')||'# -full -orig -original#'}\n${$[0]}`

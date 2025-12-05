@@ -1,0 +1,1 @@
+`https://api.live.vkvideo.ru/v1/${$[3]==='clip'?'channel'+$[1]:'blog'+$[1]+'/public_video_stream'}${$[2]}`

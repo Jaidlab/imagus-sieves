@@ -1,0 +1,1 @@
+(()=>{debugger; if (!this.node.closest('.card__img, .card-map__img')) throw ''; return 'data:,'+$[1]})()

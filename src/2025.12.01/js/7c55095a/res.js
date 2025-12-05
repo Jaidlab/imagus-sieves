@@ -1,0 +1,1 @@
+return [...new DOMParser().parseFromString($._,"text/html").querySelectorAll('img[src*="viewimage.php?"][style][alt],img[src*="viewimage.php?"][onError][alt]')].filter(i=>i.alt?.length).map(i=>[i.src]);

@@ -1,0 +1,1 @@
+return this.node.alt === "Album image" ? '//vero/?album'+$[0] : $[3] ? $[3]+'v0#mp4' : `#${$[1]}\n${$[1]}_c1246x1246${$[2]}`

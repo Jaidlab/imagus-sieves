@@ -1,0 +1,1 @@
+return $._.match(/<meta property="og:image"\s+content="([^"]+)/)?.[1].replace(/\d+_/,'highres_')||''

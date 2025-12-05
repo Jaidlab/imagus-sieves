@@ -1,0 +1,1 @@
+!$[2]&&RegExp(`${$[1]}\.com$`).test(location.hostname) ? 'data:,'+$[0] : $[0]

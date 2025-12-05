@@ -1,0 +1,1 @@
+!this.key ? `https://${$[1]}configuration.js` : 'data:,'+$[0]

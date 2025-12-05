@@ -1,0 +1,1 @@
+return (new URL($[0])).searchParams.get('piurl');

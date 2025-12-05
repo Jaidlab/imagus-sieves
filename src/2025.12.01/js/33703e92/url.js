@@ -1,0 +1,1 @@
+this.no_auth?'https://chan.sankakucomplex.com/posts/show/'+$[1]:'data:,'+$[0]

@@ -1,0 +1,2 @@
+var x=JSON.parse($._.match(/{"@context"[^\n]+/)[0]), i = x.image.split(/(?:huge|large|medium|small|link)/)
+return [[['#'+i[0]+'huge'+i[1], i[0]+'large'+i[1]], [x.name, x.description].filter(Boolean).join(' | ')]]

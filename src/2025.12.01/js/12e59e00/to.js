@@ -1,0 +1,1 @@
+return $[1] ? $[1] : this.node.parentNode.hostname ? '//'+this.node.parentNode.hostname+'/.a'+$[2] : ''

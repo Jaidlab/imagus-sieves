@@ -1,0 +1,6 @@
+var x = new XMLHttpRequest()
+x.open('Get','https://skeb.jp/api/users/'+$[1]+'/works/'+$[2],false)
+x.setRequestHeader("Authorization","Bearer null")
+x.send()
+let jsn = JSON.parse(x.responseText)
+return [jsn.article_image_url].concat(jsn.previews.map(i=>i.url+(/fcdn/.test(i.url)?'#mp4':''))).filter(Boolean).map(i=>[i])

@@ -1,0 +1,3 @@
+const vid=$[2].slice(0,3)==='vh/', id=vid&&location.pathname?.startsWith('/maps/')&&document.body.outerHTML.match(RegExp(`"id":"([^"]+)"[^{[\\]}]+?${$[2]}`))?.[1]
+if(id)return 'https://frontend.vh.yandex.com/player/'+id+'.json?hidden[]=report&hidden[]=externalPlayback&adsdk-container-width=0&adsdk-container-height=0&vpuid=qc27k7jegl';
+return vid&&/\/(?:reviews|public-profile)/.test(location.pathname) ? '//yandex_vid/'+$[2]+'!'+location.href : $[1]+'orig'

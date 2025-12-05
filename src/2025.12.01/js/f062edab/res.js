@@ -1,0 +1,1 @@
+return [...document.getElementsByClassName('file')].map(i=>[i.href,i.href.match(/[^\/]+$/)?.[0]||'']).filter(([i])=>/\.(?:jp(?:g|eg?)|heic|3gp|a?png|gif|web[pm]|bmp|xbm|pict|j(?:if|fif?)|flv|m2ts|mkv|mov|mpeg|mpg|og[gv]|mp[34]|m4[va]|svgz?|ts|rm|wm[va])/.test(i));

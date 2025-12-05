@@ -1,0 +1,1 @@
+$[2] ? '//'+$[1]+'clip/-/-/'+$[2] : this.node.closest('a').href
