@@ -1,0 +1,18 @@
+{
+  "name": "imagus-sieves",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "printf 'No %s script specified\\n' $npm_lifecycle_event >&2",
+    "build": "printf 'No %s script specified\\n' $npm_lifecycle_event >&2",
+    "test": "printf 'No %s script specified\\n' $npm_lifecycle_event >&2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "fs-extra": "^11.3.2",
+    "tempy": "^3.1.0",
+    "tsconfig-jaid-node": "^9.0.0",
+    "yauzl": "^3.2.0",
+    "zeug": "^2.1.0"
+  }
+}
